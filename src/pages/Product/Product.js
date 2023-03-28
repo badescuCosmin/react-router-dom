@@ -16,7 +16,7 @@ export const loader = async ({ params }) => {
   return res.json();
 };
 
-const ProductId = () => {
+const Product = () => {
   const params = useParams();
   const navigate = useNavigate();
   const data = useLoaderData();
@@ -42,4 +42,4 @@ const ProductId = () => {
   );
 };
 
-export default ProductId;
+export default Product;

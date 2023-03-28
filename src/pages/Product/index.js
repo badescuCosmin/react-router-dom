@@ -1,2 +1,2 @@
-import ProductId from "./Product";
-export default ProductId;
+import Product from "./Product";
+export default Product;
